@@ -1,6 +1,6 @@
 package com.chay.corejava.oops.inheritance;
 
-class Parent
+class EX01_ParentChildInitialization
 {
     // (3)
     int x=10; // (16)
@@ -12,7 +12,7 @@ class Parent
     }
 
     // (5)
-    Parent()
+    EX01_ParentChildInitialization()
     {
         System.out.println("parent Constructor: " + y); // (21)
     }
@@ -21,7 +21,7 @@ class Parent
     public static void main(String[] args)
     {
         // (2)
-        Parent p = new Parent();
+        EX01_ParentChildInitialization p = new EX01_ParentChildInitialization();
         System.out.println("parent main");
     }
 
@@ -35,7 +35,7 @@ class Parent
     int y=20;  // (20)
 }
 
-class Child extends Parent
+class Child extends EX01_ParentChildInitialization
 {
     // (10)
     int i=100; // (22)

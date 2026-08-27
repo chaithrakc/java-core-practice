@@ -31,7 +31,7 @@ class EYComparator implements Comparator{
     }
 }
 
-public class EmpDemo2 {
+public class EX02_EmployeeCustomComparator {
     public static void main(String[] args) {
         EYEmployee e1 = new EYEmployee("Sai", 35);
         EYEmployee e2 = new EYEmployee("Chai", 34);

@@ -3,7 +3,7 @@ package com.chay.corejava.collections.searching;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class SearchDemo {
+public class EX00_BinarySearch {
 
     public static void main(String[] args) {
         ArrayList<String> strArrList = new ArrayList<>();

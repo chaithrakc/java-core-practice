@@ -19,7 +19,7 @@ class StrCustomComparator implements Comparator{
     }
 }
 
-public class TreeDemo4 {
+public class EX06_StringLengthTreeSet {
     public static void main(String[] args){
         TreeSet t = new TreeSet(new StrCustomComparator());
         t.add("A");

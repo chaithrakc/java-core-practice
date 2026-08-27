@@ -3,7 +3,7 @@ package com.chay.corejava.collections.iteration;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Ex_Iterator {
+public class EX01_Iterator {
 
     public static void main(String[] args) {
         ArrayList<Integer> arr_list_int = new ArrayList<>();

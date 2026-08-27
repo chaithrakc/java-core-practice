@@ -11,7 +11,7 @@ class DescStringComparator implements Comparator{
     }
 }
 
-public class TreeSetDemo2 {
+public class EX04_DescendingStringTreeSet {
     public static void main(String[] args){
         TreeSet t = new TreeSet(new DescStringComparator());
         t.add("A");

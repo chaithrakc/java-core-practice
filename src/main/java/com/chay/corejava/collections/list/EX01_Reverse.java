@@ -3,7 +3,7 @@ package com.chay.corejava.collections.list;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class ReverseDemo {
+public class EX01_Reverse {
 
     public static void main(String[] args) {
         ArrayList<Integer> arrList = new ArrayList<>();

@@ -32,7 +32,7 @@ class Employee implements Comparable<Employee> {
     }
 }
 
-public class Ex01_ComparableVsComparator {
+public class EX00_ComparableVsComparator {
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>(List.of(
                 new Employee("Chaithra", 25),

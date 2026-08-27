@@ -2,7 +2,7 @@ package com.chay.corejava.collections.set;
 
 import java.util.TreeSet;
 
-public class TreeSetDemo_Ex01 {
+public class EX01_TreeSet {
 
     public static void main(String[] args) {
         TreeSet t = new TreeSet();

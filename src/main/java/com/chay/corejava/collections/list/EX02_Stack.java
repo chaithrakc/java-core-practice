@@ -2,7 +2,7 @@ package com.chay.corejava.collections.list;
 
 import java.util.Stack;
 
-public class StackDemo {
+public class EX02_Stack {
 
     public static void main(String[] args) {
         Stack stack = new Stack();

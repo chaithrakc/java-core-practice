@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class ReverseOrderDemo {
+public class EX01_ReverseOrder {
 
     public static void main(String[] args) {
         ArrayList<Integer> l = new ArrayList<Integer>();

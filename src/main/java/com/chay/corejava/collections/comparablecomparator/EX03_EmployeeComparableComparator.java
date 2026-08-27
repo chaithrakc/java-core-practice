@@ -30,7 +30,7 @@ class DescEmpIdCompartor implements Comparator{
     }
 }
 
-public class ComparableDemo {
+public class EX03_EmployeeComparableComparator {
     public static void main(String[] args){
         StateFarmEmployee e1 = new StateFarmEmployee(200);
         StateFarmEmployee e2 = new StateFarmEmployee(100);

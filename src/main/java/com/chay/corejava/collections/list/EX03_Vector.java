@@ -2,7 +2,7 @@ package com.chay.corejava.collections.list;
 
 import java.util.Vector;
 
-public class VectorDemo {
+public class EX03_Vector {
 
     public static void main(String[] asgs) {
         Vector vector = new Vector();

@@ -5,7 +5,7 @@ import java.util.Collections;
 
 import com.chay.corejava.collections.sorting.DescNumComparator;
 
-public class SearchDemo02 {
+public class EX01_ReverseOrderBinarySearch {
 
     public static void main(String[] args) {
         ArrayList<Integer> intArrL = new ArrayList<>();

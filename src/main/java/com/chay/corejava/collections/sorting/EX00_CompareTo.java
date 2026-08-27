@@ -1,6 +1,6 @@
 package com.chay.corejava.collections.sorting;
 
-public class Ex_CompareTo {
+public class EX00_CompareTo {
 
     public static void main(String[] args) {
         System.out.println("A".compareTo("Z")); // -ve

@@ -33,7 +33,7 @@ class CastEmployee implements Comparable{
     }
 }
 
-public class EmpDemo1 {
+public class EX01_EmployeeNaturalOrder {
     public static void main(String[] args){
         CastEmployee e1 = new CastEmployee("Sai", 50_000);
         CastEmployee e2 = new CastEmployee("Chai", 40_000);

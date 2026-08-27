@@ -3,7 +3,7 @@ package com.chay.corejava.collections.iteration;
 import java.util.Enumeration;
 import java.util.Vector;
 
-public class Ex_Enumeration {
+public class EX00_Enumeration {
 
     public static void main(String[] args) {
         Vector<Integer> v_int = new Vector<>();

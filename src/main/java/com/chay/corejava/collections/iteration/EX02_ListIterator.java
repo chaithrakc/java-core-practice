@@ -3,7 +3,7 @@ package com.chay.corejava.collections.iteration;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-public class Ex_ListIterator {
+public class EX02_ListIterator {
 
     public static void main(String[] args) {
         LinkedList<String> tools = new LinkedList<>();

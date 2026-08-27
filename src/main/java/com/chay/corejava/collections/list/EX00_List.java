@@ -2,7 +2,7 @@ package com.chay.corejava.collections.list;
 
 import java.util.LinkedList;
 
-public class ListDemo {
+public class EX00_List {
 
     public static void main(String[] args) {
         LinkedList l = new LinkedList();

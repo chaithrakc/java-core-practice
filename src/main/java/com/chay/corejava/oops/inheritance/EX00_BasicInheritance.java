@@ -27,7 +27,7 @@ class Dog extends Animal {
     }
 }
 
-public class Ex01_BasicInheritance {
+public class EX00_BasicInheritance {
     public static void main(String[] args) {
         Animal a = new Animal("Generic Animal");
         Animal d = new Dog("Rex"); // upcasting - reference type Animal, object type Dog

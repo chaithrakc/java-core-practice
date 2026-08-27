@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class CollectionDemo{
+public class EX00_CollectionDemo{
     public static void main(String[] args){
         Collection<String> str_arr0 = new ArrayList<>();
 

@@ -2,7 +2,7 @@ package com.chay.corejava.collections.set;
 
 import java.util.HashSet;
 
-class HashSetDemo {
+class EX00_HashSet {
 
     public static void main(String[] args) {
         HashSet h = new HashSet();

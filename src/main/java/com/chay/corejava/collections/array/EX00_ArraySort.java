@@ -2,7 +2,7 @@ package com.chay.corejava.collections.array;
 
 import java.util.Arrays;
 
-class ArraySortDemo {
+class EX00_ArraySort {
 
     public static void main(String[] args) {
         int[] a = {10, 5, 20, 1, 6};

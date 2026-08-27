@@ -15,7 +15,7 @@ class DescIntegerComparator implements Comparator<Integer>{
    }
 }
 
-public class TreeSetDemo3 {
+public class EX05_IntegerTreeSetComparator {
     public static void main(String[] args){
         TreeSet<Integer> t = new TreeSet<>(new DescIntegerComparator());
         t.add(20);

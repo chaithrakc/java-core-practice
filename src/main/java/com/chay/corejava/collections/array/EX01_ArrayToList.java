@@ -3,7 +3,7 @@ package com.chay.corejava.collections.array;
 import java.util.Arrays;
 import java.util.List;
 
-public class ArrayToListDemo {
+public class EX01_ArrayToList {
 
     public static void main(String[] args) {
         String[] the_strings = {"A", "Z", "B"}; // object-type array
