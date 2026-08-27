@@ -3,11 +3,14 @@ package com.chay.corejava.collections.comparablecomparator;
 import java.util.Comparator;
 import java.util.TreeSet;
 
-class StateFarmEmployee implements Comparable{
+class StateFarmEmployee implements Comparable {
+
     Integer emp_id;
-    StateFarmEmployee(Integer emp_id){
+
+    StateFarmEmployee(Integer emp_id) {
         this.emp_id = emp_id;
     }
+
     @Override
     public int compareTo(Object obj) {
         StateFarmEmployee e2 = (StateFarmEmployee) obj;
@@ -22,8 +25,10 @@ class StateFarmEmployee implements Comparable{
     }
 }
 
-class DescEmpIdCompartor implements Comparator{
-    public int compare(Object o1, Object o2){
+class DescEmpIdCompartor implements Comparator {
+
+    @Override
+    public int compare(Object o1, Object o2) {
         StateFarmEmployee e1 = (StateFarmEmployee) o1;
         StateFarmEmployee e2 = (StateFarmEmployee) o2;
         return e2.compareTo(e1); // return -e1.compareTo(e2);
@@ -31,7 +36,8 @@ class DescEmpIdCompartor implements Comparator{
 }
 
 public class EX03_EmployeeComparableComparator {
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         StateFarmEmployee e1 = new StateFarmEmployee(200);
         StateFarmEmployee e2 = new StateFarmEmployee(100);
         StateFarmEmployee e3 = new StateFarmEmployee(500);
