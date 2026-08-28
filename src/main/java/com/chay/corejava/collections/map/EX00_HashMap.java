@@ -32,14 +32,15 @@ public class EX00_HashMap {
             Map.Entry<String, Integer> entry = itr.next();
             System.out.println(entry.getKey() + "----" + entry.getValue());
             // Linux----12
-//            Macintosh----25
-//            Windows----12
-//            Android----200
+            // Macintosh----25
+            // Windows----12
+            // Android----200
 
             if (entry.getKey().equals("Macintosh")) {
                 entry.setValue(10); // Macintosh values becomes 10
 
-                    }}
+            }
+        }
         System.out.println(theHashmap); // {Linux=12, Macintosh=10, Windows=12, Android=200}
     }
 }
