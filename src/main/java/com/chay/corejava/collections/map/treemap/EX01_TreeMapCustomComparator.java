@@ -10,7 +10,7 @@ class StrDescComparator implements Comparator<String> {
     }
 }
 
-public class EX02_TreeMapCustomComparator {
+public class EX01_TreeMapCustomComparator {
     public static void main(String[] args) {
         TreeMap<String, Integer> t = new TreeMap<>(new StrDescComparator());
         t.put("XXX", 10);

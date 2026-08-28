@@ -2,7 +2,7 @@ package com.chay.corejava.collections.map.treemap;
 
 import java.util.TreeMap;
 
-public class EX01_TreeMap {
+public class EX00_TreeMap {
     public static void main(String[] args) {
         // TreeMap is a sorted map, it sorts the keys in natural order.
         // It does not allow null keys but allows null values.
