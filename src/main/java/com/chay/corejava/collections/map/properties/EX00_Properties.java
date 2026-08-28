@@ -20,13 +20,17 @@ public class EX00_Properties {
         String propertiesPath = "src/main/java/com/chay/corejava/collections/map/properties/abc.properties";
         FileInputStream fis = new FileInputStream(propertiesPath);
         props.load(fis);
-        System.out.println(props);
+        System.out.println(props); // {CONNECTION_URL=jdbc:mysql://localhost:3306/mydatabase, PASSWORD=secret,
+                                   // USER=Scott}
 
         String connectionUrl = props.getProperty("CONNECTION_URL");
-        System.out.println("Connection URL: " + connectionUrl);
+        System.out.println("Connection URL: " + connectionUrl); // Connection URL:
+                                                                // jdbc:mysql://localhost:3306/mydatabase
 
         props.setProperty("SSL", "cert/sf/xyz");
-        System.out.println("Updated Properties: " + props);
+        System.out.println("Updated Properties: " + props); // Updated Properties:
+                                                            // {CONNECTION_URL=jdbc:mysql://localhost:3306/mydatabase,
+                                                            // PASSWORD=secret, USER=Scott, SSL=cert/sf/xyz}
 
         FileOutputStream fos = new FileOutputStream(propertiesPath);
         props.store(fos, "Updated SSL property");
