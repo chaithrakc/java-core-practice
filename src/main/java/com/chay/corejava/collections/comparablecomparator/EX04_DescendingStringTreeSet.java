@@ -3,12 +3,10 @@ package com.chay.corejava.collections.comparablecomparator;
 import java.util.Comparator;
 import java.util.TreeSet;
 
-class DescStringComparator implements Comparator {
+class DescStringComparator implements Comparator<String> {
 
     @Override
-    public int compare(Object obj1, Object obj2) {
-        String s1 = (String) obj1;
-        String s2 = obj2.toString();
+    public int compare(String s1, String s2) {
         return s2.compareTo(s1);
     }
 }
@@ -16,7 +14,7 @@ class DescStringComparator implements Comparator {
 public class EX04_DescendingStringTreeSet {
 
     public static void main(String[] args) {
-        TreeSet t = new TreeSet(new DescStringComparator());
+        TreeSet<String> t = new TreeSet<>(new DescStringComparator());
         t.add("A");
         t.add("Z");
         t.add("K");

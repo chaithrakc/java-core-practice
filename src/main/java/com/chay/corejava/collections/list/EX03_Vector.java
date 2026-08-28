@@ -5,7 +5,7 @@ import java.util.Vector;
 public class EX03_Vector {
 
     public static void main(String[] asgs) {
-        Vector vector = new Vector();
+        Vector<Object> vector = new Vector<>();
         System.out.println(vector.capacity()); // 10
 
         for (int i = 1; i <= 10; i++) {

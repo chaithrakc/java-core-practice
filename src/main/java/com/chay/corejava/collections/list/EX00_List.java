@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class EX00_List {
 
     public static void main(String[] args) {
-        LinkedList l = new LinkedList();
+        LinkedList<Object> l = new LinkedList<>();
         l.add("durga");
         l.add(30);
         l.add(null);

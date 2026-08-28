@@ -3,7 +3,7 @@ package com.chay.corejava.collections.comparablecomparator;
 import java.util.Comparator;
 import java.util.TreeSet;
 
-class StrCustomComparator implements Comparator {
+class StrCustomComparator implements Comparator<Object> {
 
     @Override
     public int compare(Object obj1, Object obj2) {
@@ -13,10 +13,10 @@ class StrCustomComparator implements Comparator {
         int l2 = s2.length();
 
         if (l1 < l2) {
-            return -1; 
-        }else if (l1 > l2) {
-            return +1; 
-        }else {
+            return -1;
+        } else if (l1 > l2) {
+            return +1;
+        } else {
             return s1.compareTo(s2);
         }
     }
@@ -25,7 +25,7 @@ class StrCustomComparator implements Comparator {
 public class EX06_StringLengthTreeSet {
 
     public static void main(String[] args) {
-        TreeSet t = new TreeSet(new StrCustomComparator());
+        TreeSet<Object> t = new TreeSet<>(new StrCustomComparator());
         t.add("A");
         t.add(new StringBuffer("ABC"));
         t.add(new StringBuffer("AA"));

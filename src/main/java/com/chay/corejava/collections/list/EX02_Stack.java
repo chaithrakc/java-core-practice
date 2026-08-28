@@ -5,7 +5,7 @@ import java.util.Stack;
 public class EX02_Stack {
 
     public static void main(String[] args) {
-        Stack stack = new Stack();
+        Stack<String> stack = new Stack<>();
         stack.push("A");
         stack.push("B");
         stack.push("C");

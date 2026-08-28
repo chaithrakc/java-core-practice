@@ -5,7 +5,7 @@ import java.util.TreeSet;
 public class EX01_TreeSet {
 
     public static void main(String[] args) {
-        TreeSet t = new TreeSet();
+        TreeSet<StringBuffer> t = new TreeSet<>();
 
         t.add(new StringBuffer("A"));
         t.add(new StringBuffer("Z"));

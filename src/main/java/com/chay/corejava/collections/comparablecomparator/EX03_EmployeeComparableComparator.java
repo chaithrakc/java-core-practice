@@ -3,7 +3,7 @@ package com.chay.corejava.collections.comparablecomparator;
 import java.util.Comparator;
 import java.util.TreeSet;
 
-class StateFarmEmployee implements Comparable {
+class StateFarmEmployee implements Comparable<StateFarmEmployee> {
 
     Integer emp_id;
 
@@ -12,7 +12,7 @@ class StateFarmEmployee implements Comparable {
     }
 
     @Override
-    public int compareTo(Object obj) {
+    public int compareTo(StateFarmEmployee obj) {
         StateFarmEmployee e2 = (StateFarmEmployee) obj;
         Integer eid1 = this.emp_id;
         Integer eid2 = e2.emp_id;
@@ -25,12 +25,10 @@ class StateFarmEmployee implements Comparable {
     }
 }
 
-class DescEmpIdCompartor implements Comparator {
+class DescEmpIdCompartor implements Comparator<StateFarmEmployee> {
 
     @Override
-    public int compare(Object o1, Object o2) {
-        StateFarmEmployee e1 = (StateFarmEmployee) o1;
-        StateFarmEmployee e2 = (StateFarmEmployee) o2;
+    public int compare(StateFarmEmployee e1, StateFarmEmployee e2) {
         return e2.compareTo(e1); // return -e1.compareTo(e2);
     }
 }
@@ -44,7 +42,7 @@ public class EX03_EmployeeComparableComparator {
         StateFarmEmployee e4 = new StateFarmEmployee(500);
         StateFarmEmployee e5 = new StateFarmEmployee(700);
 
-        TreeSet t1 = new TreeSet();
+        TreeSet<StateFarmEmployee> t1 = new TreeSet<>();
         t1.add(e1);
         t1.add(e2);
         t1.add(e3);
@@ -53,7 +51,7 @@ public class EX03_EmployeeComparableComparator {
 
         System.out.println(t1); // [SF-100, SF-200, SF-500, SF-700]
 
-        TreeSet t2 = new TreeSet(new DescEmpIdCompartor());
+        TreeSet<StateFarmEmployee> t2 = new TreeSet<>(new DescEmpIdCompartor());
         t2.add(e1);
         t2.add(e2);
         t2.add(e3);
