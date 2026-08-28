@@ -1,4 +1,4 @@
-package com.chay.corejava.collections.map;
+package com.chay.corejava.collections.map.hashmap;
 
 import java.util.Collection;
 import java.util.HashMap;

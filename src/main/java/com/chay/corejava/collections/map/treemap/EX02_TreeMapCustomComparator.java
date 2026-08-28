@@ -1,4 +1,4 @@
-package com.chay.corejava.collections.map;
+package com.chay.corejava.collections.map.treemap;
 
 import java.util.TreeMap;
 import java.util.Comparator;
